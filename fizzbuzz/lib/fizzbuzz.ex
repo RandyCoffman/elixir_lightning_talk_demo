@@ -1,6 +1,6 @@
 defmodule Fizzbuzz do
 
-  def play do
-    
+  def try(num) do
+    num
   end
 end
