@@ -50,4 +50,25 @@ defmodule FizzbuzzTest do
     IO.puts " outcome of Fizzbuzz.try(55) is.. #{Fizzbuzz.try(55)}"
     assert Fizzbuzz.try(55) === "Buzz"
   end
+
+  test "Fizzbuzz.try(15) = FizzBuzz" do
+    IO.puts " outcome of Fizzbuzz.try(15) is.. #{Fizzbuzz.try(15)}"
+    assert Fizzbuzz.try(15) === "FizzBuzz"
+  end
+
+  test "Fizzbuzz.try(30) = FizzBuzz" do
+    IO.puts " outcome of Fizzbuzz.try(30) is.. #{Fizzbuzz.try(30)}"
+    assert Fizzbuzz.try(30) === "FizzBuzz"
+  end
+
+  test "Fizzbuzz.try(45) = FizzBuzz" do
+    IO.puts " outcome of Fizzbuzz.try(45) is.. #{Fizzbuzz.try(45)}"
+    assert Fizzbuzz.try(45) === "FizzBuzz"
+  end
+
+  test "Fizzbuzz.try(90) = FizzBuzz" do
+    IO.puts " outcome of Fizzbuzz.try(90) is.. #{Fizzbuzz.try(90)}"
+    assert Fizzbuzz.try(90) === "FizzBuzz"
+  end
+
 end
