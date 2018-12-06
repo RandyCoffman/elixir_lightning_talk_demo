@@ -10,4 +10,9 @@ defmodule FizzbuzzTest do
     IO.puts " outcome of Fizzbuzz.try(1) is.. #{Fizzbuzz.try(1)}"
     assert Fizzbuzz.try(1) === 1
   end
+
+  test "Fizzbuzz.try(3) = Fizz" do
+    IO.puts " outcome of Fizzbuzz.try(3) is.. #{Fizzbuzz.try(3)}"
+    assert Fizzbuzz.try(3) === "Fizz"
+  end
 end
